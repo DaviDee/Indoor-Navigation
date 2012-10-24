@@ -1,0 +1,4 @@
+Indoor-Navigation
+=================
+
+Undergraduate students and non-regular visitors (e.g. guest lecturers) often have problems finding certain rooms or people on campus. By the use of Smartphones with integrated GPS devices, navigation outside of buildings is possible. Inside the buildings, GPS is not available. For indoor navigation are numerous positioning methods available, e.g. WLAN-, Bluetooth- or UMTS-tracking. Each of the methods comes with advantages and disadvantages. In order to compensate disadvantages multiple positioning methods and tools can be used inside buildings. The application introduces a navigation service for Android, able to integrate different methods of positioning. Instead of multiple applications it is planned to provide a single Smartphone application for indoor navigation. Internally there are different modules managing the different positioning methods.
