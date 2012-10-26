@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="route_alg">
+		<item>Kuerzeste Wege</item>
+		<item>Wege mit kleinster Anzahl an Punkten </item>
+	</string-array>
+	<string-array name="route_alg_values">
+		<item>shortest</item>
+		<item>minimal</item>
+	</string-array>
+	<string-array name="floor_diff">
+		<item>1 Etage</item>
+		<item>2 Etagen</item>
+		<item>3 Etagen</item>
+	</string-array>
+	<string-array name="floor_diff_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+</resources>

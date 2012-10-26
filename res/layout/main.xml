@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:layout_gravity="bottom">
+	<inavi.prototyp.gui.INaviSurfaceView
+		android:id="@+id/surfaceView" android:layout_weight="1"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<ImageButton android:id="@+id/stepButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true" android:src="@drawable/foots_new" />
+		<ImageButton android:id="@+id/zoomOutButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"  android:src="@drawable/zoom_out" />
+		<ImageButton android:id="@+id/zoomInButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_toLeftOf="@id/zoomOutButton"
+			android:layout_alignParentBottom="true"  android:src="@drawable/zoom_in" />
+	</RelativeLayout>
+</FrameLayout>

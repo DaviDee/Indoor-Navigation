@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<ScrollView android:scrollbars="vertical" 
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical">
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Über das Menü 'Load Map' öffnen Sie eine Karte.">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Mithilfe von Menüeintrag 'Position' können Sie Ihre akutelle Position angeben. Dies ist auf zwei Wege möglich:">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="- die Position wird auf eine Karte angegeben (Sie können die Etagen blättern)">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="- die Position wird aus eine Liste der möglichen Ziele gewählt">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Über das Menü 'Start Routing' wird ein Dialog zum eingeben des gewünschten Zieles geöffnet. Nach der Sie das Ziel gewählt haben, wird ein Weg zu diesem berechnet und dargestellt.">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Grün ist Ihre aktuelle Position markiert."
+				android:background="@color/position">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Das Ziel ist rot markiert."
+				android:background="@color/target">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Zudem sind blaue Punkte auf dem Weg markiert, jedes mal, wenn Sie den nächsten blauen Punkt erreicht haben, drücken den Knopf"
+				android:background="@color/path">
+			</TextView>
+			<ImageButton android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:src="@drawable/foots_new" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@color/path"
+				android:text="Dadurch wird Ihre Position aktualisiert und die neue Richtung wird vorgegeben.">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Die Richtung zum nächsten Punkt wird in der oberen rechten Ecke angezeigt und grün gefärbt, wenn Sie in die richtige Richtung schauen (sonst rot).">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="In der oberen linken Ecke wird die Nummer der Etage angezeit.">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Zudem kann die Karte rein- und rausgezoomt werden.">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Über das Menü 'Route Settings' können Sie die Einstellungen für die Wegberechnun ändern. Hier wird eine minimale Etage-Differenz angegeben, bei unbedingt ein Weg über einen Fahrstuhl berechnet wird. Der Wegetyp wird ebenfalls hier gewählt. Es existieren zwei Möglichkeiten:">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="- kürzesten Wege">
+			</TextView>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="- Wege mit minimal Anzahl der Punkten, die Sie gehen müssen. Also wenige Richtungsänderungen.">
+			</TextView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

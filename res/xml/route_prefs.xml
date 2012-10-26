@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Routing Settings">
+		<ListPreference android:key="floor_diff"
+			android:title="Fahrstuhl benutzen ab einer Differenz von" android:defaultValue="2"
+			android:entries="@array/floor_diff" android:entryValues="@array/floor_diff_values" />
+		<ListPreference android:key="route_algorithm"
+			android:title="Routing Algorithmus" android:defaultValue="minimal"
+			android:entries="@array/route_alg" android:entryValues="@array/route_alg_values" />
+	</PreferenceCategory>
+</PreferenceScreen>

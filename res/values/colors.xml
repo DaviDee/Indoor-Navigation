@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="display_info">#AA0AB65F</color>
+	<color name="arrow_wrong">#AAB60A5F</color>
+	<color name="position">#CF55CC55</color>
+	<color name="target">#CFCC5555</color>
+	<color name="path">#CF5555CC</color>
+</resources>

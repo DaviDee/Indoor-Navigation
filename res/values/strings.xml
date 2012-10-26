@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IndoorNavigation!</string>
+    <string name="app_name">IndoorNavigation</string>
+<string name="selectTarget">Select Target</string>
+<string name="cancelRouting">Cancel Routing</string>
+<string name="loadMap">Load Map</string>
+<string name="OK">OK</string>
+<string name="help">Help</string>
+</resources>
